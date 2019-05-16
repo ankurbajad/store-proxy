@@ -1,0 +1,16 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  username: root
+  password: 12345678
+  pool: 5
+  database: store_traffic
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  username: root
+  password: 12345678
+  pool: 5
+  database: store_traffic1
